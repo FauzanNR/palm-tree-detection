@@ -1,3 +1,8 @@
+# Palm Tree Detection
+
+This project was intended to detect and count palm tree image with top-down view using YOLOv8 Architecture.
+I used YOLOv8 architecture because of its ability that are proven in the industry with well-documented project. YOLOv8 developed by Ulralytics also have good integration API to pytorch which can easly be deployed to a released product
+
 # Environment Setup
 
 I am using conda 24.11.3 with Linux Mint 21.1 system and YOLOv8 [model](https://yolov8.com/).<br>
@@ -7,9 +12,7 @@ Before continuing the process I would like to setting up the environment with co
     ```bash
     mkdir palm-tree-detection
     ```
-    ```bash
-    mkdir apple-classification
-    ```
+ 
 2. Create conda environment in normal way
 
     ```bash
@@ -60,11 +63,10 @@ Before continuing the process I would like to setting up the environment with co
             device=0) <---- REMOVE THE ARGUMENT AND PARAMETER
     ```
 
-5. Move the ipynb files to the project folder ```palm-tree-detection``` or ```apple-classification```. Each file provide data gathering instruction in it.
+5. Move the ipynb files to the project folder ```palm-tree-detection```.The file provide data gathering instruction in it.
 
 
 <br>
 
 # Dataset used in this project
-1. [Palm Tree Label 200m Splitted Computer Vision Project](https://universe.roboflow.com/cryospace-yylkk/palm-tree-label-200m-splitted) by [Cryospace](https://universe.roboflow.com/cryospace-yylkk)
-2. [Apllecounting2 Computer Vision Project](https://universe.roboflow.com/uttam-ubpdc/apllecounting2-fppyk-obt8f) by [Uttam](https://universe.roboflow.com/uttam-ubpdc)
+[Palm Tree Label 200m Splitted Computer Vision Project](https://universe.roboflow.com/cryospace-yylkk/palm-tree-label-200m-splitted) by [Cryospace](https://universe.roboflow.com/cryospace-yylkk)
