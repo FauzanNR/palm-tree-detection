@@ -33,7 +33,7 @@ Before continuing the process I would like to setting up the environment with co
     <br>
     install this
     ```bash
-    pip install ipykernel
+    conda install ipykernel
     ```
     from here you can already select the kernel in Vscode.
     <br>
